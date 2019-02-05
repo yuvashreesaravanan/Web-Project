@@ -1,0 +1,109 @@
+<html>
+<head>
+<link rel="stylesheet" href="externalsheet.css">
+<style>
+
+div.gallery {
+  margin: 5px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 425px;
+}
+
+div.gallery:hover {
+  border: 3px solid red;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: 28%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+ }
+
+</style>
+</head>
+<header>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="homepg.html">About</a>
+  <a href="home.html">Home</a>  
+  <a href="category.html">Categories</a>
+  <a href="login.html">Contact</a>
+  <a href="contact.html">Login</a>
+</div>
+</header>
+<body>
+<div id="main">
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;OPEN</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="picture15192323984917.jpg" height="40px" width="60px"><sapn style="color:black;font-size:50px">FANTASY WORLD</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<body bgcolor="#F70D1A">
+  <div class="text-block">
+    <b><h1 style="color:BLACK;font-size:40px"><pre>                        CATEGORIES</pre></h1></b>
+    <div class="gallery">
+     <a  href="teddybear.html">
+       <img src="TBB42-800x800.jpg" alt="Forest" width="600" height="400">
+        </a>
+      <div class="desc"><font size=10 color="#F70D1A" face="verdana"><B>TEDDY BEARS</div>
+    </div>
+
+   <div class="gallery">
+     <a href="bouquets.html">
+      <img src="fullsizerender-6_1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">BOUQUETS</div>
+   </div>
+
+  <div class="gallery">
+    <a href="homedecor.html">
+    <img src="homedec.jpg" alt="Mountains" width="600" height="400">
+     </a>
+     <div class="desc">HOME DECOR</div>
+   </div>
+
+	<div class="gallery">
+	  <a href="general.html">
+	    <img src="758345soq-800x800.jpg" alt="Mountains" width="600" height="400">
+  	</a>
+  	<div class="desc">GENERAL GIFTS</div>
+	</div>
+
+	<div class="gallery">
+	  <a  href="personal.html">
+ 	   <img src="TVKEcoBox-4_800x.jpg" alt="Northern Lights" width="600" height="400">
+ 	 </a>
+ 	 <div class="desc">PERSONAL GIFT</div>
+	</div>
+
+	<div class="gallery">
+	  <a  href="stationery.html">
+  	  <img src="1a6f5bc256a260f10ae2992b03fdb8a9.jpg" alt="5Terre" width="600" height="400">
+	  </a>
+	  <div class="desc">STATIONERY ITEMS</div>
+	</div>
+  </div>
+
+<div class="footer">
+<p style="color:black">To place your orders visit the website given below!!<br><a href="fantasyworld.com">fantasyworld.com<br>
+Contact Number:9952906739
+</div>
+
+</div>
+</body>
+</html>
